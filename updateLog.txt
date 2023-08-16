@@ -1,0 +1,18 @@
+HTML & CSS
+    Header 		- Estrutura feita
+    Middle 		- Estrutura feita
+    Produtos 	- Estrutura feita
+    Lojas       - Estrutura feita
+    Reviews     - Estrutura feita
+    Footer		- Estrutura feita
+
+------------------------------------------------------------------------------------------------------------
+CSS -> Responsividade
+    - Tamanho
+    - Imagens
+    - Espaço
+    - Grades
+------------------------------------------------------------------------------------------------------------
+JS -> Interação
+    - Tema
+    - ...outros talvez...
