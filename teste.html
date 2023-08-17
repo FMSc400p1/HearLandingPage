@@ -6,23 +6,61 @@
     <title>Teste</title>
     <style>
         *{
+            background-color: black;
+            color:white;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        body{
-            /*background-color: black;*/
+        /*body{
+            /*background-color: black;
             color:white;
-        }
+        }*/
     </style>
 </head>
-<body id="main">
-    <button onclick="cor()">oi</button>
+<body>
+    <!--<button type="button" onclick="color()">hi</button>
+    <button type="button" onclick="colorNew()">new</button>
     <script>
-        function cor(){
-            var corNova = document.getElementById("main");
-            corNova.style.backgroundColor = 'black';
+        function color(){
+            var newColor = document.getElementById("main");
+            newColor.style.backgroundColor='black';
+        }
+        function colorNew(){
+            var colorNew = document.getElementById("main");
+            
+            if(colorNew.style.backgroundColor=='black'){
+                colorNew.style.backgroundColor = 'white';
+            }
+        }
+    </script>-->
+
+    <button style="display: block;" type="button" onclick="mudar()" id="butao1">
+        Mudar
+    </button>
+
+    <button style="display: none;" type="button" onclick="devolta()" id="butao2">
+        Devolta
+    </button>
+    
+    <script>
+        function mudar(){
+            var corOld = document.getElementById("butao1");
+            var corNew = document.getElementById("butao2");
+            corOld.style.display = 'none';
+            if(corOld.style.display='none'){
+                corNew.style.display = 'block';
+            }
+        }
+        function devolta(){
+            var corNova = document.getElementById("butao2");
+            var corVelha = document.getElementById("butao1");
+            corNova.style.display = 'none';
+            if(corNova.style.display  = 'none'){
+                corVelha.style.display = 'block';
+            }
         }
     </script>
+
 </body>
 </html>

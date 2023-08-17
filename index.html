@@ -16,8 +16,13 @@
 </head>
 <body id="muda">
 
-<button onclick="cor()">Escuro</button>
-<button onclick="corTroca()">Claro</button>
+<button style="background-color:black;color:white;display:block;"class="themeButton"onclick="cor()"id="butao1">
+	Escuro
+</button>
+
+<button style="background-color:white;color:black;display:none;"class="themeButton"onclick="corTroca()"id="butao2">
+	Claro
+</button>
 
 <header id="Main" class="header">
 	<div class="headerItemsSpace">	
@@ -350,12 +355,23 @@ src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js">
 <script>
 	function cor(){
 		var corNova = document.getElementById("muda");
+		var butao1 = document.getElementById("butao1");
+		var butao2 = document.getElementById("butao2");
 		corNova.style.backgroundColor = 'black';
+		butao1.style.display = 'none';
+		if(butao1.style.display = 'none'){
+			butao2.style.display = 'block';
+		}
+		
 	}
 	function corTroca(){
 		var corNova1 = document.getElementById("muda");
-		if(corNova1.style.backgroudColor = 'black'){
-			corNova1.style.backgroundColor = 'white';
+		var butao2 = document.getElementById("butao2");
+		var butao1 = document.getElementById("butao1");
+		corNova1.style.backgroundColor='white';
+		butao2.style.display = 'none';
+		if(butao2.style.display = 'none'){
+			butao1.style.display='block';
 		}
 	}
 </script>
