@@ -12,15 +12,16 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="./interact.js">
 	<title>H'ears</title>	
 </head>
 <body id="muda">
 
-<button style="background-color:black;color:white;display:block;"class="themeButton"onclick="cor()"id="butao1">
+<button class="themeButton1" onclick="cor()"id="butao1">
 	Escuro
 </button>
 
-<button style="background-color:white;color:black;display:none;"class="themeButton"onclick="corTroca()"id="butao2">
+<button class="themeButton2" onclick="corTroca()"id="butao2">
 	Claro
 </button>
 
@@ -334,46 +335,6 @@
 <script 
 src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js">
 </script>
-<script>
-	var swiper = new Swiper(".mySwiper", {
-	spaceBetween: 30,
-	centeredSlides: true,
-	autoplay: {
-		delay: 1750,
-		disableOnInteraction: false,
-	},
-	pagination: {
-		el: ".swiper-pagination",
-		clickable: true,
-	},
-	navigation: {
-		nextEl: ".swiper-button-next",
-		prevEl: ".swiper-button-prev",
-	},
-	});
-</script>
-<script>
-	function cor(){
-		var corNova = document.getElementById("muda");
-		var butao1 = document.getElementById("butao1");
-		var butao2 = document.getElementById("butao2");
-		corNova.style.backgroundColor = 'black';
-		butao1.style.display = 'none';
-		if(butao1.style.display = 'none'){
-			butao2.style.display = 'block';
-		}
-		
-	}
-	function corTroca(){
-		var corNova1 = document.getElementById("muda");
-		var butao2 = document.getElementById("butao2");
-		var butao1 = document.getElementById("butao1");
-		corNova1.style.backgroundColor='white';
-		butao2.style.display = 'none';
-		if(butao2.style.display = 'none'){
-			butao1.style.display='block';
-		}
-	}
-</script>
+<script src="./interact.js"></script>
 </body>
 </html>

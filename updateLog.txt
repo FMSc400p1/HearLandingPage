@@ -16,4 +16,4 @@ CSS -> Responsividade
 JS -> Interação
     - Tema
         - Consegui deixar o butao necessário quando clicar
-    - ...outros talvez...
+        - Pra mudar os elementos de uma classe, se usa querySelector(".exemplo");

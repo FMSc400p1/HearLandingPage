@@ -1,5 +1,5 @@
                     /*JavaScript Button*/
-.themeButton{
+.themeButton1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     box-shadow: 5px 5px 8px blue;
@@ -9,6 +9,23 @@
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     color: #1460f3;
+    background-color:black;
+    color:white;
+    display:block;
+}
+.themeButton2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 5px 5px 8px blue;
+    margin-top: 5px;
+    width: 200px;
+    height: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #1460f3;
+    background-color:white;
+    color:black;
+    display:none;
 }
 
 
@@ -18,6 +35,7 @@
 .header{
     width: 100%;
     height: 18vh;
+    /*background-color:red;*/
 }
 .headerItemsSpace{
     width: 100%;
@@ -32,14 +50,19 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    /* background-color: red; */
+    /*background-color: rgb(251, 61, 61);*/
 }
 .headerTitlefinal{
+    display: flex;
+    align-items: center;
+    justify-content: start;
     font-weight: bold;
     font-family:'Open Sans', sans-serif;
     font-size: 40px;
+    height: 50%;
     width: 50%;
     color: #1463F3;
+    /*background-color:blueviolet;*/
 }
 .headerOptions{
     display: flex;
@@ -597,4 +620,12 @@ background: #fff;
 .spacelow{
     width: 100%;
     height: 10vh;
+}
+/*--------------------------------------------------------*/
+                    /*Responsivo*/
+/*--------------------------------------------------------*/
+@media (max-width: 768px) {
+    .headerTitlefinal{
+        font-size: 60px;
+    }
 }
