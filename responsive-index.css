@@ -1,0 +1,75 @@
+@media (max-width:768px) {
+    #muda #Main .headerItemsSpace .headerTitle .headerTitlefinal #titlefinal{
+        font-size:60px;
+    }
+    #muda .middle .middleCarroussel .middleBlockSides1 .middleBlockSides1Inside1 .middleBlockSides1Inside1Block1{
+        width:100%;
+        font-size: 24px;
+    }
+    #muda .middle .middleCarroussel .middleBlockSides2 .middleBlockSides1Inside2 .middleBlockSides1Inside1Block2{
+        width: 100%;
+        text-align:center;
+        font-size: 24px;
+    }
+    #muda .middle .middleCarroussel .middleBlockMiddle{
+        width: 60%;
+    }
+    #muda #Main .headerItemsSpace .headerOptions{
+        font-size: 20px;
+    }
+    #muda .header{
+        /*background-color :red;*/
+        height: 12vh;
+    }
+    #muda .products .productsTitle{
+        font-size: 24px;
+    }
+    #muda .products .headphone{
+        height:15%;
+        /*background-color: red;*/
+    }
+    #muda .products .headphone .headphoneDesc{
+        height: 80%;
+    }
+    #muda .products .headphone .headphoneDesc .headPhoneDescText{
+        height: 50%;
+    }
+    #muda .products .earbuds img{
+        width: 33%;
+        height: 33%;
+    }
+    #muda .products .earpiece .earpieceImg1{
+        height: 80%;
+        width: 25%;
+    }
+    #muda .products .earpiece .earpieceImg2{
+        height: 80%;
+        width: 25%;
+    }
+    #muda .products .earpiece .earpieceImg3{
+        height: 80%;
+        width: 25%;
+    }
+    #muda .products .earpiece .earpieceDescText{
+        text-align: center;
+    }
+    #muda .stores .storesTitle{
+        font-size: 20px;
+    }
+    #muda .stores .storesInfoLocaleImg img{
+        height: 80%;
+    }
+    #muda .reviews .reviewsTitle{
+        font-size: 20px;
+    }
+    #muda .reviews .reviewsComent .reviewsComentBlock .reviewsComentBlockUserInfo .reviewsComentBlockUserInfoTitle h1{
+        font-size: 18px;
+    }
+    #muda .reviews .reviewsComent .reviewsComentBlock .reviewsComentBlockUserDesc .reviewsComentBlockUsersDescTitle h1{
+        font-size: 20px;
+    }
+    #muda .reviews .reviewsComent .reviewsComentBlock .reviewsComentBlockUserDesc .reviewsComentBlockUsersDescText .reviewsComentBlockUsersDescTextZone p{
+        font-size: 12px;
+        text-align: center;
+    }
+}

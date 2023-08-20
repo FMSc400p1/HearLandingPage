@@ -65,6 +65,7 @@
     /*background-color:blueviolet;*/
 }
 .headerOptions{
+    font-size: 24px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -77,93 +78,95 @@
 /*--------------------------------------------------------*/
                     /*Depois do Header*/
 /*--------------------------------------------------------*/
-    .middle{
-        width: 100%;
-        height: 80vh;
-        /* background-color: red; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .middleCarroussel{
-        width: 70%;
-        height: 75vh;
-        /* background-color: blue; */
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .middleBlockSides1{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        width: 30%;
-        height: 75vh;
-        font-size: 22px;
-        text-align: start;
-    }
-    .middleBlockSides1Inside1{
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        width: 100%;
-        height: 50%;
-        /* background-color: red; */
-    }
-    .middleBlockSides1Inside1Block1{
-        font-size: 22px;
-        display: flex;
-        align-items: end;
-        font-style: italic;
-        text-align: left;
-        width: 50%;
-        height: 60%;
-        color:#1463F3;
-        /* background-color: green; */
-    }
-    .middleBlockSides1Inside2{
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        width: 100%;
-        height: 50%;
-        /* background-color: purple; */
-    }
-    .middleBlockSides2{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        width: 30%;
-        height: 75vh;
-        /* background-color: purple; */
-    }
-    .middleBlockSides1Inside2{
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        width: 100%;
-        height: 50%;
-    }
-    .middleBlockSides1Inside1Block2{
-        font-size: 22px;
-        display: flex;
-        align-items: end;
-        font-style: italic;
-        text-align: left;
-        width: 50%;
-        height: 60%;
-        color:#1463F3;
-    }
-    .middleBlockMiddle{
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        width: 35%;
-        height: 75vh;
-        /* background-color: purple;    */
-    }
+.middle{
+    width: 100%;
+    height: 80vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middleCarroussel{
+    width: 70%;
+    height: 75vh;
+    /*background-color: blue;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.middleBlockSides1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 75vh;
+    font-size: 22px;
+    text-align: start;
+    /*background-color: red;*/
+}
+.middleBlockSides1Inside1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    /* background-color: red; */
+}
+.middleBlockSides1Inside1Block1{
+    font-size: 22px;
+    display: flex;
+    align-items: end;
+    font-style: italic;
+    text-align: left;
+    width: 50%;
+    height: 60%;
+    color:#1463F3;
+    /*background-color: lightgray;*/
+}
+.middleBlockSides1Inside2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 50%;
+    /* background-color: purple; */
+}
+.middleBlockSides2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 75vh;
+    /*background-color: purple;*/
+}
+.middleBlockSides1Inside2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+.middleBlockSides1Inside1Block2{
+    font-size: 22px;
+    display: flex;
+    align-items: end;
+    font-style: italic;
+    text-align: left;
+    width: 50%;
+    height: 60%;
+    color:#1463F3;
+    /*background-color: gray;*/
+}
+.middleBlockMiddle{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 35%;
+    height: 75vh;
+    /* background-color: purple;    */
+}
 /*--------------------------------------------------------*/
 
 
@@ -283,13 +286,17 @@
     text-align: justify;
 }
 .earbudsDescText > p{
+    font-style: italic;
     color:#1463F3;
 }
 .earbudsDescImg{
     width: 60%;
+    /* height: 50%; */
     display: flex;
     justify-content: space-around;
-    align-items:center; 
+    align-items:center;
+    object-fit: cover;
+    /* background-color: red; */
 }
 .earbuds img{
     width: 30%;
@@ -354,6 +361,7 @@
     align-items:center; */
     /* background-color: purple; */
     text-align: justify;
+    font-style: italic;
 }
 .earpieceDescText > p{
     color:#1463F3;
@@ -553,7 +561,8 @@
     justify-content: center;
     background: rgb(202, 202, 202);
     text-align: justify;
-}.reviewsComentBlockUsersDescTextZone p{
+}
+.reviewsComentBlockUsersDescTextZone p{
     color: black;
 }
 .
@@ -561,7 +570,7 @@
 
                     /*Swiper*/
 /*--------------------------------------------------------*/
-.swiper {
+.swiper{
     border-radius: 30px;
     width: 550px;
     height: 550px;
@@ -576,7 +585,7 @@ background: #fff;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 30px;
+    border-radius: 50px;
     /* border: 1px solid black; */
 }
 /*--------------------------------------------------------*/
@@ -624,8 +633,45 @@ background: #fff;
 /*--------------------------------------------------------*/
                     /*Responsivo*/
 /*--------------------------------------------------------*/
-@media (max-width: 768px) {
-    .headerTitlefinal{
-        font-size: 60px;
+/* @media (max-width:768px) {
+    #muda #Main .headerItemsSpace .headerTitle .headerTitlefinal #titlefinal{
+        font-size:60px;
     }
-}
+    #muda .middle .middleCarroussel .middleBlockSides1 .middleBlockSides1Inside1 .middleBlockSides1Inside1Block1{
+        width:100%;
+        font-size: 24px;
+    }
+    #muda .middle .middleCarroussel .middleBlockSides2 .middleBlockSides1Inside2 .middleBlockSides1Inside1Block2{
+        width: 100%;
+        text-align:center;
+        font-size: 24px;
+    }
+    #muda .middle .middleCarroussel .middleBlockMiddle{
+        width: 60%;
+    }
+    #muda #Main .headerItemsSpace .headerOptions{
+        font-size: 20px;
+    }
+    #muda .header{
+        /*background-color :red;
+        height: 12vh;
+    }
+    #muda .products .productsTitle{
+        font-size: 24px;
+    }
+    #muda .products .headphone{
+        height:15%;
+        /*background-color: red;
+    }
+    #muda .products .headphone .headphoneDesc{
+        height: 80%;
+    }
+    #muda .products .headphone .headphoneDesc .headPhoneDescText{
+        height: 50%;
+    }
+    #muda .products .earbuds img{
+        width: 33%;
+        height: 33%;
+    }
+
+} */
