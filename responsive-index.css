@@ -1,3 +1,4 @@
+/*Using media screen for Ipad and Tablet Devices*/
 @media (max-width:768px) {
     #muda #Main .headerItemsSpace .headerTitle .headerTitlefinal #titlefinal{
         font-size:60px;
@@ -71,5 +72,109 @@
     #muda .reviews .reviewsComent .reviewsComentBlock .reviewsComentBlockUserDesc .reviewsComentBlockUsersDescText .reviewsComentBlockUsersDescTextZone p{
         font-size: 12px;
         text-align: center;
+    }
+}
+/*Using media screen for Mobile Devices*/
+@media (max-width: 480px){
+    /*Header and the MiddleCarroussel*/
+    #muda .header{
+        height: 15vh;
+    } 
+    #muda #Main .headerItemsSpace .headerTitle .headerTitlefinal #titlefinal{
+        font-size:40px;
+    }
+    #muda #Main .headerItemsSpace .headerOptions{
+        font-size: 16px;
+    }
+    #muda #Main .headerItemsSpace .mostraDepois{
+        display: none;
+    }
+    #muda .middle .middleCarroussel{
+        width: 100%;
+    }
+    #muda .middle .middleCarroussel .middleBlockSides1 .middleBlockSides1Inside1 .middleBlockSides1Inside1Block1{
+        font-size: 18px;
+        text-align: center;
+    }
+    #muda .middle .middleCarroussel .middleBlockSides2 .middleBlockSides1Inside2 .middleBlockSides1Inside1Block2{
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    /*Products*/
+    /*Products - Title*/
+    #muda .products .productsTitle{
+        font-size: 18px;
+    }
+    /*Products - HeadPhones*/
+    #muda .products .headphone .headphoneDesc .headPhoneDescTitle h1{
+        font-size: 24px;
+    }
+    #muda .products .headphone .headphoneDesc .headPhoneDescText p {
+        text-align: center;
+        font-size:14px; 
+    }
+    /*Products - EarBuds*/
+    #muda .products .earbuds .earbudsDesc .earbudsDescTitle h1{
+        font-size:24px;
+    }
+    #muda .products .earbuds .earbudsDesc .earbudsDescText p{
+        font-size:14px;
+    }
+    /*Products - EarPieces*/
+    #muda .products .earpiece .earpieceDesc .earpieceDescTitle h1{
+        font-size: 24px;
+    }
+    #muda .products .earpiece .earpieceDesc .earpieceDescText p{
+        font-size: 14px;
+        text-align: justify;
+    }
+    /*Stores*/
+    /*Stores - Title*/
+    #muda .products .stores .storesTitle h1{
+        font-size:36px;
+    }
+    /*Stores - Stores Info*/
+    #muda .stores .storesInfo .storesInfoLocale .storesInfoLocaleText .storesInfoLocaleTextTitle h1{
+        font-size: 24px;
+    }
+    #muda .stores .storesInfo .storesInfoLocale .storesInfoLocaleText .storesInfoLocaleTextTitle{
+        justify-content: center;
+    }
+    #muda .stores .storesInfo .storesInfoLocale .storesInfoLocaleText p{
+        font-size: 14px;
+        text-align: center;
+    }
+    /*Reviews*/
+    /*Reviews - Title*/
+    #muda .reviews .reviewsTitle .reviewsTitleZone h1{
+        font-size: 36px;
+    }
+    /*Reviews - Usernames*/
+    #muda .reviews .reviewsComent .reviewsComentBlock .reviewsComentBlockUserInfo .reviewsComentBlockUserInfoTitle h1{
+        font-size: 12px;
+    }
+    #muda .reviews .reviewsComent .reviewsComentBlock .reviewsComentBlockUserInfo .reviewsComentBlockUserInfoTitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*Reviews - UserComments*/
+    #muda .reviews .reviewsComent .reviewsComentBlock .reviewsComentBlockUserDesc .reviewsComentBlockUsersDescTitle h1{
+        font-size:16px ;
+    }
+    /*Reviews - UserRating*/
+    #muda .reviews .reviewsComent .reviewsComentBlock .reviewsComentBlockUserInfo .reviewsComentBlockUserInfoRating img{
+        width: 10%;
+    }
+    /*Footer*/
+    /*Footer - Options*/
+    #muda .footer .footerOptions{
+        font-style: italic;
+    }
+    /*Footer - Text*/
+    #muda .footer .footerText{
+        font-size: 16px;
+        font-style: italic;
     }
 }

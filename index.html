@@ -19,13 +19,14 @@
 </head>
 <body id="muda">
 
-<button class="themeButton1" onclick="cor()"id="butao1">
+	<!--Button to change the theme-->
+<!-- <button class="themeButton1" onclick="cor()"id="butao1">
 	Escuro
 </button>
 
 <button class="themeButton2" onclick="corTroca()"id="butao2">
 	Claro
-</button>
+</button> -->
 
 <header id="Main" class="header">
 	<div class="headerItemsSpace">	
@@ -38,17 +39,17 @@
 			<a href="#produtos">
 				<p>Devices</p>
 			</a>
-			<a href="#">
+			<a href="#lojas">
 				<p>Stores</p>
 			</a>
-			<a href="#">
+			<a href="#aval">
 				<p>Reviews</p>
 			</a>
 			<a href="#">
-				<p>Help</p>
+				<p class="mostraDepois">Help</p>
 			</a>
-			<a href="#">
-				<p>About</p>
+			<a href="#footer">
+				<p class="mostraDepois">About</p>
 			</a>
 		</div>
 	</div>
@@ -155,7 +156,7 @@
 		<img class="earpieceImg2" src="./img/earBud32.jpg" alt="">
 		<img class="earpieceImg3" src="./img/earBud3.jpg" alt="">
 	</div>
-	<lojas class="stores">
+	<lojas class="stores" id="lojas">
 		<div class="storesTitle">
 			<h1>Stores</h1>
 		</div>
@@ -169,7 +170,7 @@
 						<h1>L.Americanas</h1>
 					</div>
 					<div>
-						<p>Todo Mundo vai!
+						<p>O maior natal do Brasil!
 							<br>
 							Access through Maps: 
 							<a href="https://www.google.com/maps/search/lojas+americanas/@-3.0517989,-60.0089162,12.46z">
@@ -207,7 +208,7 @@
 						<h1>InfoStore</h1>
 					</div>
 					<div>
-						<p>A loja de eletrônicos mais caros do Brasil vende fone!
+						<p>A loja que também vende fone!
 							<br>
 							Access through Maps: 
 							<a href="https://www.google.com/maps/search/Info+Store/@-3.0561544,-60.0163009,12.25z">
@@ -221,7 +222,7 @@
 	</lojas>
 </main>
 
-<div class="reviews">
+<div class="reviews" id="aval">
 	<div class="reviewsTitle">
 		<div class="reviewsTitleZone">
 			<h1>Reviews</h1>
@@ -260,7 +261,7 @@
 		<div class="reviewsComentBlock">
 			<div class="reviewsComentBlockUserInfo">
 				<div class="reviewsComentBlockUserInfoTitle">
-					<h1>#floresalmeidarocha888</h1>
+					<h1>#floresalmeidarocha8</h1>
 				</div>
 				<div class="reviewsComentBlockUserInfoAvatar">
 					<img src="./img/skyler.jpg" alt="">
@@ -321,7 +322,7 @@
 
 <div class="spacelow"></div>
 
-<footer class="footer">
+<footer class="footer" id="footer">
 	<footerText class="footerText">
 		<h2>Site developed by @C4</h2>
 	</footerText>
