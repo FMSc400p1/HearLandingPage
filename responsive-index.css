@@ -178,3 +178,157 @@
         font-style: italic;
     }
 }
+/*Using media screen for Small Mobile Devices*/
+/*Model - Galaxy Fold*/
+@media (max-width: 280px){
+    #muda #Main .headerItemsSpace .headerTitle .headerTitlefinal #titlefinal{
+        font-size: 24px;
+    }
+    #muda #Main .headerItemsSpace .headerOptions{
+        font-size:12px;
+    }
+    #muda .middle{
+        height: 50vh;
+        /* background-color: green; */
+    }
+    #muda .middle .middleCarroussel{
+        height: 50vh;
+    }
+    #muda .middle .middleBlockSides1{
+        height:50vh;
+    }
+    #muda .middle .middleBlockMiddle{
+        height: 50vh;
+    }
+    #muda .middle .middleCarroussel .middleBlockSides2{
+        height:50vh;
+    }
+    #muda .middle .middleCarroussel .middleBlockSides1 .middleBlockSides1Inside1 .middleBlockSides1Inside1Block1{
+        font-size: 12px;
+    }
+    #muda .middle .middleCarroussel .middleBlockSides2 .middleBlockSides1Inside2 .middleBlockSides1Inside1Block2{
+        font-size: 12px;
+    }
+    #muda .middle .middleCarroussel .middleBlockMiddle{
+        width: 40%;
+        height: 50vh;
+    }
+
+    #muda .products .productsTitle{
+        font-size: 14px;
+    }
+    #muda .products .headphone .headphoneDesc .headPhoneDescTitle h1{
+        font-size: 14px;
+    }
+    #muda .products .headphone .headphoneDesc .headPhoneDescText p{
+        font-size: 10px;
+    }
+    #muda #space1{
+        height: 8vh;
+    }
+    #muda #space2{
+        height: 0vh;
+    }
+    #muda .products{
+        height: 140vh;
+        /* background-color: red; */
+    }
+    #muda .products .productsTitle{
+        height: 5vh;
+        width: 50%;
+        /* background-color: green; */
+    }
+    #muda .products .headphone{
+        height: 15%;
+        /* background-color: green; */
+    }
+    #muda .products .earbuds .earbudsDesc .earbudsDescTitle h1{
+        font-size: 14px;
+    }
+    #muda .products .earbuds .earbudsDesc .earbudsDescText p{
+        font-size: 10px;
+        text-align: center;
+    }
+    #muda .products .earbuds{
+        height: 15%;
+        /* background-color:purple; */
+    }
+    #muda .products .earbuds .earbudsDesc .earbudsDescText{
+        /* background-color: blue; */
+        height: 60%;
+    }
+    #muda .products .earpiece{
+        /*background-color: green; */
+    }
+    #muda .products #space3{
+        height: 0vh;
+    }
+    #muda .products .earpiece .earpieceDesc .earpieceDescTitle h1{
+        font-size: 14px;
+    }
+    #muda .products .earpiece .earpieceDesc .earpieceDescText p{
+        text-align: center;
+        font-size: 10px;
+    }
+    #muda .products .earpiece .earpieceImg1{
+        width: 23%;
+        height: 53%;
+    }
+    #muda .products .earpiece .earpieceImg2{
+        width: 23%;
+        height: 53%;
+    }
+    #muda .products .earpiece .earpieceImg3{
+        width: 23%;
+        height: 53%;
+    }
+    #muda .stores{
+        height: 50%;
+        /* background-color: green; */
+    }
+    #muda .stores .storesTitle{
+        /* background-color: purple; */
+        width: 70%;
+        height:12%;
+    }
+    #muda .products .stores .storesTitle h1{
+        font-size: 28px;
+    }
+    #muda .products .stores .storesInfo{
+        height: 70%;
+        /* background-color: aliceblue; */
+    }
+    #muda .stores .storesInfo .storesInfoLocale{
+        height: 80%;
+        width: 80%;
+    }
+    #muda .products .stores .storesInfo .storesInfoLocale .storesInfoLocaleText .storesInfoLocaleTextTitle h1{
+        font-size: 12px;
+    }
+    #muda .products .stores .storesInfo .storesInfoLocale .storesInfoLocaleText p{
+        font-size: 10px;
+    }
+    #muda .reviews{
+        height: 80vh;
+        /* background-color: red; */
+    }
+    #muda .reviews .reviewsComent .reviewsComentBlock .reviewsComentBlockUserDesc .reviewsComentBlockUsersDescTitle h1{
+        font-size:10px;
+    }
+    #muda .reviews .reviewsComent .reviewsComentBlock .reviewsComentBlockUserInfo .reviewsComentBlockUserInfoTitle h1{
+        font-size: 8px;
+    }
+    #muda .reviews .reviewsComent .reviewsComentBlock .reviewsComentBlockUserInfo .reviewsComentBlockUserInfoAvatar img{
+        width: 70%;
+    }
+    #muda .reviews .reviewsComent .reviewsComentBlock .reviewsComentBlockUserDesc .reviewsComentBlockUsersDescText .reviewsComentBlockUsersDescTextZone p{
+        font-size: 8px;
+    }
+    #muda .reviews .reviewsComent .reviewsComentBlock .reviewsComentBlockUserInfo .reviewsComentBlockUserInfoRating img{
+        /* background-color: blue; */
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
